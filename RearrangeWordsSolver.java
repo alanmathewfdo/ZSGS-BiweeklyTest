@@ -20,7 +20,7 @@ public class RearrangeWordsSolver {
 			 sb.append(i+" ");
 		 }
 		 sb.setCharAt(0, Character.toUpperCase(sb.charAt(0)));
-		 return sb.toString();
+		 return sb.toString().trim();
 	 }
 	 public static void main(String[] args) {
 		 RearrangeWordsSolver wordSolve = new RearrangeWordsSolver();
